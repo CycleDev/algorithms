@@ -1,14 +1,14 @@
-package nao.algorithms.week1;
+package nao.algorithms.week1.UF;
 
-import nao.algorithms.Utils;
+import nao.algorithms.common.Utils;
 
 import java.util.Arrays;
 
-public class QuickUnionUF {
+public class QuickUnion {
 
     private int[] values;
 
-    public QuickUnionUF(int n) {
+    public QuickUnion(int n) {
 
         values = new int[n];
         Utils.fillArray(n, values);
@@ -35,7 +35,7 @@ public class QuickUnionUF {
 
     @Override
     public String toString() {
-        return "QuickUnionUF { " +
+        return "QuickUnion { " +
                 "values=" + Arrays.toString(values) +
                 " }";
     }

@@ -1,4 +1,4 @@
-package nao.algorithms;
+package nao.algorithms.common;
 
 public class Utils {
 

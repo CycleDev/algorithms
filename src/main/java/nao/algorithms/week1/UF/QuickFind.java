@@ -1,14 +1,14 @@
-package nao.algorithms.week1;
+package nao.algorithms.week1.UF;
 
-import nao.algorithms.Utils;
+import nao.algorithms.common.Utils;
 
 import java.util.Arrays;
 
-public class QuickFindUF {
+public class QuickFind {
 
     private int[] values;
 
-    public QuickFindUF(int n) {
+    public QuickFind(int n) {
 
         values = new int[n];
         Utils.fillArray(n, values);
@@ -31,7 +31,7 @@ public class QuickFindUF {
 
     @Override
     public String toString() {
-        return "QuickFindUF { " +
+        return "QuickFind { " +
                 "values=" + Arrays.toString(values) +
                 " }";
     }
